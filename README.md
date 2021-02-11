@@ -1,6 +1,6 @@
 # WD-workoutLog
 
-## Please see below for images of endpoint & tokens, etc.
+## Please see below for screenshots of endpoint & tokens, etc.
 
 ### Endpoints:
 
@@ -9,7 +9,7 @@
 
 #### 1. /user/register | POST | Allows a new user to be created with a username and password.
 
-<img src= "images/user-register-POST.png" width = 80%>
+<img src= "images/user-register-POST.jpg" width = 80%>
 
 #### 2. /user/login | POST | Allows log in with an existing user.
 
