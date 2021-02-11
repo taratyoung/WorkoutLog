@@ -43,7 +43,7 @@ router.get("/mine",  validateSession, (req, res) => {
 });
 
 
-//Get entires by description
+//Get entries by description
 router.get("/:description",  function (req, res) {
     let description = req.params.description;
 

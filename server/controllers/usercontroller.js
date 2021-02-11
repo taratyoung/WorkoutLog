@@ -8,7 +8,7 @@ router.post('/register', function (req, res) {
     console.log(req.body.user);
 
     User.create({
-        // email: 'user@email.com', //(hardcoded emaill)
+        // email: 'user@email.com', //(hardcoded email)
         // password: 'password1234' //(hardcoded password)
         email: req.body.user.email, //dynamic email
         password: bcrypt.hashSync(req.body.user.password, 13) //dynamic password
