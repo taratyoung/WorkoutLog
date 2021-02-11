@@ -7,7 +7,7 @@ Endpoint | Verb | Description
 -------- | ---- | -----------
 
 #### 1. /user/register | POST | Allows a new user to be created with a username and password.
-<img src= "images/user/register/POST.png" width = 80%>
+<img src= "images/user-register-POST.jpg" width = 80%>
 
 #### 2. /user/login | POST | Allows log in with an existing user.
 <img src= "images/user/login/POST.png" width = 80%>
